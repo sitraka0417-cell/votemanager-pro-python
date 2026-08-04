@@ -15,7 +15,7 @@ ArchitecturesInstallIn64BitMode=x64compatible
 Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 
 [Files]
-Source: "dist\VoteManagerPro\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\dist\VoteManagerPro\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\VoteManager Pro"; Filename: "{app}\VoteManagerPro.exe"
